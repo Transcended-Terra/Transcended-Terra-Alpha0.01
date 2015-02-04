@@ -1,0 +1,130 @@
+fileFormatVersion: 2
+guid: ade60a49016dd454499f6e5d7c2b406b
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Bneck
+    100002: Head
+    100004: LBbicep
+    100006: LBelbow
+    100008: LBhand
+    100010: Lbicep
+    100012: LBshoulder
+    100014: Lelbow
+    100016: Lhand
+    100018: Lshoulder
+    100020: //RootNode
+    100022: Objera__Armature
+    100024: pelvis
+    100026: RBbicep
+    100028: RBelbow
+    100030: RBhand
+    100032: Rbicep
+    100034: RBshoulder
+    100036: Relbow
+    100038: Rhand
+    100040: Rshoulder
+    100042: Sphere
+    100044: stomache
+    100046: tail_1
+    100048: tail_2
+    100050: tail_3
+    100052: tail_4
+    100054: tail_5
+    100056: tail_6
+    100058: tail_7
+    100060: tail_8
+    100062: Tback
+    100064: Tneck
+    400000: Bneck
+    400002: Head
+    400004: LBbicep
+    400006: LBelbow
+    400008: LBhand
+    400010: Lbicep
+    400012: LBshoulder
+    400014: Lelbow
+    400016: Lhand
+    400018: Lshoulder
+    400020: //RootNode
+    400022: Objera__Armature
+    400024: pelvis
+    400026: RBbicep
+    400028: RBelbow
+    400030: RBhand
+    400032: Rbicep
+    400034: RBshoulder
+    400036: Relbow
+    400038: Rhand
+    400040: Rshoulder
+    400042: Sphere
+    400044: stomache
+    400046: tail_1
+    400048: tail_2
+    400050: tail_3
+    400052: tail_4
+    400054: tail_5
+    400056: tail_6
+    400058: tail_7
+    400060: tail_8
+    400062: Tback
+    400064: Tneck
+    4300000: Sphere
+    7400000: Default Take
+    7400002: Walk
+    9500000: //RootNode
+    13700000: Sphere
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
