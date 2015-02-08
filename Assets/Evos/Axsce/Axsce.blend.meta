@@ -38,6 +38,7 @@ ModelImporter:
     7400002: Walk
     7400004: Idle
     9500000: //RootNode
+    11100000: //RootNode
     13700000: //RootNode
   materials:
     importMaterials: 1
@@ -54,11 +55,119 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Idle
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Axsce_Armature
+        weight: 1
+      - path: Axsce_Armature/Body
+        weight: 1
+      - path: Axsce_Armature/Body/Head
+        weight: 1
+      - path: Axsce_Armature/pelvis
+        weight: 1
+      - path: Axsce_Armature/pelvis/Left_claw
+        weight: 1
+      - path: Axsce_Armature/pelvis/Right_claw
+        weight: 1
+      - path: Axsce_Armature/pelvis/tail_1
+        weight: 1
+      - path: Axsce_Armature/pelvis/tail_1/tail_2
+        weight: 1
+      - path: Axsce_Armature/pelvis/tail_1/tail_2/tail_3
+        weight: 1
+      - path: Axsce_Armature/pelvis/tail_1/tail_2/tail_3/tail_4
+        weight: 1
+      - path: Axsce_Armature/pelvis/tail_1/tail_2/tail_3/tail_4/tail_5
+        weight: 1
+      - path: Axsce_Armature/pelvis/tail_1/tail_2/tail_3/tail_4/tail_5/tail_6
+        weight: 1
+      - path: Axsce_Armature/pelvis/tail_1/tail_2/tail_3/tail_4/tail_5/tail_6/tail_7
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk
+      takeName: Walk
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Axsce_Armature
+        weight: 1
+      - path: Axsce_Armature/Body
+        weight: 1
+      - path: Axsce_Armature/Body/Head
+        weight: 1
+      - path: Axsce_Armature/pelvis
+        weight: 1
+      - path: Axsce_Armature/pelvis/Left_claw
+        weight: 1
+      - path: Axsce_Armature/pelvis/Right_claw
+        weight: 1
+      - path: Axsce_Armature/pelvis/tail_1
+        weight: 1
+      - path: Axsce_Armature/pelvis/tail_1/tail_2
+        weight: 1
+      - path: Axsce_Armature/pelvis/tail_1/tail_2/tail_3
+        weight: 1
+      - path: Axsce_Armature/pelvis/tail_1/tail_2/tail_3/tail_4
+        weight: 1
+      - path: Axsce_Armature/pelvis/tail_1/tail_2/tail_3/tail_4/tail_5
+        weight: 1
+      - path: Axsce_Armature/pelvis/tail_1/tail_2/tail_3/tail_4/tail_5/tail_6
+        weight: 1
+      - path: Axsce_Armature/pelvis/tail_1/tail_2/tail_3/tail_4/tail_5/tail_6/tail_7
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 2
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
@@ -90,6 +199,6 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 1
   additionalBone: 0
   userData: 

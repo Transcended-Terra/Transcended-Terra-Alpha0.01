@@ -1,0 +1,211 @@
+fileFormatVersion: 2
+guid: 40d686b91f355cc48bbc33524a091212
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Axsce Armature
+    100004: Body
+    100006: Head
+    100008: Left claw
+    100010: pelvis
+    100012: Right claw
+    100014: tail 1
+    100016: tail 2
+    100018: tail 3
+    100020: tail 4
+    100022: tail 5
+    100024: tail 6
+    100026: tail 7
+    100028: Axsce
+    100030: Camera
+    100032: Lamp
+    400000: //RootNode
+    400002: Axsce Armature
+    400004: Body
+    400006: Head
+    400008: Left claw
+    400010: pelvis
+    400012: Right claw
+    400014: tail 1
+    400016: tail 2
+    400018: tail 3
+    400020: tail 4
+    400022: tail 5
+    400024: tail 6
+    400026: tail 7
+    400028: Axsce
+    400030: Camera
+    400032: Lamp
+    4300000: Axsce
+    7400000: Axsce|Idle
+    7400002: Axsce Armature|Idle
+    7400004: Axsce Armature|Walk
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: //RootNode
+    13700002: Axsce
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Axsce Armature|Idle
+      takeName: Axsce Armature|Idle
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Axsce Armature
+        weight: 1
+      - path: Axsce Armature/Body
+        weight: 1
+      - path: Axsce Armature/Body/Head
+        weight: 1
+      - path: Axsce Armature/pelvis
+        weight: 1
+      - path: Axsce Armature/pelvis/Left claw
+        weight: 1
+      - path: Axsce Armature/pelvis/Right claw
+        weight: 1
+      - path: Axsce Armature/pelvis/tail 1
+        weight: 1
+      - path: Axsce Armature/pelvis/tail 1/tail 2
+        weight: 1
+      - path: Axsce Armature/pelvis/tail 1/tail 2/tail 3
+        weight: 1
+      - path: Axsce Armature/pelvis/tail 1/tail 2/tail 3/tail 4
+        weight: 1
+      - path: Axsce Armature/pelvis/tail 1/tail 2/tail 3/tail 4/tail 5
+        weight: 1
+      - path: Axsce Armature/pelvis/tail 1/tail 2/tail 3/tail 4/tail 5/tail 6
+        weight: 1
+      - path: Axsce Armature/pelvis/tail 1/tail 2/tail 3/tail 4/tail 5/tail 6/tail
+          7
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Axsce Armature|Walk
+      takeName: Axsce Armature|Walk
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Axsce Armature
+        weight: 1
+      - path: Axsce Armature/Body
+        weight: 1
+      - path: Axsce Armature/Body/Head
+        weight: 1
+      - path: Axsce Armature/pelvis
+        weight: 1
+      - path: Axsce Armature/pelvis/Left claw
+        weight: 1
+      - path: Axsce Armature/pelvis/Right claw
+        weight: 1
+      - path: Axsce Armature/pelvis/tail 1
+        weight: 1
+      - path: Axsce Armature/pelvis/tail 1/tail 2
+        weight: 1
+      - path: Axsce Armature/pelvis/tail 1/tail 2/tail 3
+        weight: 1
+      - path: Axsce Armature/pelvis/tail 1/tail 2/tail 3/tail 4
+        weight: 1
+      - path: Axsce Armature/pelvis/tail 1/tail 2/tail 3/tail 4/tail 5
+        weight: 1
+      - path: Axsce Armature/pelvis/tail 1/tail 2/tail 3/tail 4/tail 5/tail 6
+        weight: 1
+      - path: Axsce Armature/pelvis/tail 1/tail 2/tail 3/tail 4/tail 5/tail 6/tail
+          7
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

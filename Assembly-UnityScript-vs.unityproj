@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{C6CB50A8-0CF9-B676-0CE3-7F1A4B98A419}</ProjectGuid>
+	<ProjectGuid>{23848E67-FEB0-7C54-E252-3FB2C53BACD8}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,10 +46,17 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ThirdPersonCamera.js" />
-     <Compile Include="Assets\ThirdPersonController.js" />
+     <Compile Include="Assets\MoneyPickup.js" />
+     <Compile Include="Assets\Scripts\Damage.js" />
+     <Compile Include="Assets\Scripts\Money\Collection.js" />
+     <Compile Include="Assets\Scripts\Movement.js" />
+     <Compile Include="Assets\Scripts\PlayerData\PlayersMoney.js" />
+     <Compile Include="Assets\Scripts\Walking.js" />
+     <Compile Include="Assets\Scripts\WalkingHikanou.js" />
+     <Compile Include="Assets\Scripts\axsceprojectile.js" />
+     <Compile Include="Assets\Scripts\destroy.js" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/Brightborn/Documents/Transcended Terra-Alpha0.01/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/Brightborn/Documents/Transcended-Terra-Alpha0.01/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.2/UnityEngine.UI.dll</HintPath>
@@ -57,7 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
-      <Project>{BC920CAD-906C-4C7B-9D59-C66CBD6AE399}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+      <Project>{374C7EAC-1485-E27F-A1BC-7BFEE51904A9}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
